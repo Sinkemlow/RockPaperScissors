@@ -14,7 +14,7 @@ def computer_choice():
 
 def player_choice():
     print "Enter your choice of rock, paper or scissors. Type exit to finish."
-    choice = raw_input('>>')
+    choice = raw_input('>> ')
 
     if choice == 'rock' or choice == 'paper' or choice == 'scissors':
         return choice
