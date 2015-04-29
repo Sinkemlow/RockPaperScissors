@@ -58,7 +58,7 @@ def main():
         elif result == 'lose':
             computer_score += 1
         print "Your score is %s " % player_score
-        print "My score is %s " % computer_score
+        print "The Computer's score is %s " % computer_score
 
 
 main()
