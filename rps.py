@@ -45,7 +45,7 @@ def play_round(computer, user):
         return 'win'
     elif computer == 'scissors' and user == 'paper':
         print "Computer played scissors and wins!"
-        print 'lose'
+        return 'lose'
 
 
 def main():
